@@ -1,0 +1,30 @@
+<template name="queries">
+
+  <table id="rtvaiListingTable">
+    <thead>
+      <tr>
+        <th>{{mf 'rtvai-listing-table-name' 'Nume'}}</th>
+        <th>{{mf 'rtvai-listing-table-code' 'CUI'}}</th>
+        <th>{{mf 'rtvai-listing-table-date-start' 'Dată început'}}</th>
+        <th>{{mf 'rtvai-listing-table-date-end' 'Dată sfârşit'}}</th>
+        <th>{{mf 'rtvai-listing-table-date-published' 'Data publicării'}}</th>
+        <th>{{mf 'rtvai-listing-table-date-processed' 'Data procesării'}}</th>
+        <th>{{mf 'rtvai-listing-table-type' 'Tip'}}</th>
+      </tr> 
+    </thead>
+    <tbody>
+      {{#items}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{code}}</td>
+        <td>{{date_start}}</td>
+        <td>{{date_end}}</td>
+        <td>{{date_published}}</td>
+        <td>{{date_processed}}</td>
+        <td>{{type}}</td>
+      </tr>
+      {{/items}}
+    </tbody>  
+  </table>
+
+</template>

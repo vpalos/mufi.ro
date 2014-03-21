@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "iron-router": {},
+    "fs": {},
+    "moment-timezone": {},
+    "bootstrap-3": {},
+    "messageformat": {},
+    "underscore-string-latest": {},
+    "datatables": {},
+    "zip": {}
+  }
+}
