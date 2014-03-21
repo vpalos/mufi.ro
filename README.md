@@ -1,3 +1,3 @@
-**M**otor**U**tilitar**FI**nanciar.ro
+# MotorUtilitarFinanciar.ro
 
 Codebase for mufi.ro web service.
